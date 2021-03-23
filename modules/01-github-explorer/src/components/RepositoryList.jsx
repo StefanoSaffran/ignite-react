@@ -1,7 +1,7 @@
 import React from 'react';
 import { Repository } from './Repository';
 
-// import { Container } from './styles';
+import '../styles/repositories.scss';
 
 const repository = {
   name: 'unform',
