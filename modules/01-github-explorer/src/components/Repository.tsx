@@ -1,6 +1,10 @@
-import React from 'react';
+import { Repository as RepositoryTypes } from './RepositoryList'
 
-export function Repository({ repository }) {
+type RepositoryProps = {
+  repository: RepositoryTypes
+}
+
+export function Repository({ repository }: RepositoryProps) {
   return (
     <li>
       <strong>{repository.name}</strong>
