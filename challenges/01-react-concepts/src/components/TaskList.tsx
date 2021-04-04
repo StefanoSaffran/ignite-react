@@ -44,8 +44,6 @@ export function TaskList() {
     setTasks(tasks.filter(task => task.id !== id))
   }
 
-  console.log(tasks)
-
   return (
     <section className="task-list container">
       <header>
